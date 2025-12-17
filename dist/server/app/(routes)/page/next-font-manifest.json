@@ -1,0 +1,13 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/(routes)/page": [
+      "static/media/65c558afe41e89d6-s.p.e2c8389a.woff2",
+      "static/media/2a65768255d6b625-s.p.d19752fb.woff2",
+      "static/media/7cdbb9ca823c0a73-s.p.f2244ea0.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}
