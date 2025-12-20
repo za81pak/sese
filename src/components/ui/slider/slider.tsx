@@ -1,7 +1,6 @@
 'use client';
 
-import React, { useRef } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper,  } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -43,7 +42,7 @@ const PromotionsSlider = () => {
                                 slidesPerView: 3,
                             },
                         }}
-                        className="pb-12"
+                        className="pb-12">
                     </Swiper>
 
                     {/* Кастомные кнопки навигации */}
@@ -51,21 +50,7 @@ const PromotionsSlider = () => {
                     <div className="swiper-button-next !w-12 !h-12 !bg-white !shadow-lg !rounded-full !text-red-600 !right-0 after:!text-lg"></div>
                 </div>
 
-                {/* Стили для кастомных кнопок */}
-                <style jsx global>{`
-          .swiper-button-prev:after, 
-          .swiper-button-next:after {
-            font-size: 20px !important;
-            font-weight: bold;
-          }
-          .swiper-pagination-bullet {
-            background: #d1d5db !important;
-            opacity: 1 !important;
-          }
-          .swiper-pagination-bullet-active {
-            background: #dc2626 !important;
-          }
-        `}</style>
+
             </div>
         </section>
     );

@@ -9,7 +9,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
 const StockSlider = () => {
-    const swiperRef = useRef<any>(null);
+    const swiperRef = useRef<string>(null);
     const prevRef = useRef<HTMLButtonElement>(null);
     const nextRef = useRef<HTMLButtonElement>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
