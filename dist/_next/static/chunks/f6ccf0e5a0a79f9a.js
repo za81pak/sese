@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,65379,e=>{e.v("/PET-VET/_next/static/media/hero.ee2b5909.png")},82978,e=>{e.v("/PET-VET/_next/static/media/cat.7c6f5ed3.png")}]);

@@ -1,5 +1,8 @@
 'use client';
 
+
+import React, { useRef } from 'react'; // Добавьте useRef сюда
+import { Swiper as SwiperType } from 'swiper';
 import { Swiper,  } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -8,6 +11,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
 const PromotionsSlider = () => {
+
       return (
         <section className="relative w-full py-16 bg-gradient-to-b from-white to-gray-50">
             <div className="container mx-auto px-4 sm:px-6 lg:px-32">

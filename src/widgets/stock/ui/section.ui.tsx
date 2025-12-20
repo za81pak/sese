@@ -1,5 +1,7 @@
 'use client';
 
+
+import { Swiper as SwiperType } from 'swiper';
 import React, {useRef, useState} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
@@ -9,10 +11,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 
 const StockSlider = () => {
-    const swiperRef = useRef<string>(null);
+
     const prevRef = useRef<HTMLButtonElement>(null);
     const nextRef = useRef<HTMLButtonElement>(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const swiperRef = useRef<SwiperType | null>(null);
+
 
     const services = [
         {
