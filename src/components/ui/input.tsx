@@ -1,8 +1,9 @@
 import * as React from "react";
 import { cn } from "@/lib/utils";
 
+// ВАРИАНТ 2: С interface но с комментарием внутри
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
-    // Этот интерфейс может быть пустым или содержать дополнительные свойства
+    // Этот интерфейс расширяет стандартные атрибуты input
 }
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
