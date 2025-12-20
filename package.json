@@ -2,7 +2,7 @@
   "name": "savory",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://za81pak.github.io/PET-VET/",
+  "homepage": "https://za81pak.github.io/sese/",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
