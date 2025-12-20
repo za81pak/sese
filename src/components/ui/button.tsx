@@ -1,6 +1,4 @@
 "use client";
-import { useState } from 'react';
-import AppointmentModal from '@/components/AppointmentModal';
 
 import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"

@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react';
+
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
 
 const FaqSection = () => {
