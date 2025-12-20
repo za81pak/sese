@@ -58,6 +58,7 @@ const __TURBOPACK__default__export__ = fontData;
 "[project]/src/lib/utils.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// src/lib/utils.ts
 __turbopack_context__.s([
     "cn",
     ()=>cn
@@ -95,7 +96,7 @@ const __TURBOPACK__default__export__ = Container;
 }),
 "[project]/public/statics/logo.svg (static in ecmascript)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/logo.fc33844c.svg");}),
+__turbopack_context__.v("/_next/static/media/logo.1fb14692.svg");}),
 "[project]/public/statics/logo.svg.mjs { IMAGE => \"[project]/public/statics/logo.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -115,7 +116,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/public/statics/call.svg (static in ecmascript)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/call.6310ab15.svg");}),
+__turbopack_context__.v("/_next/static/media/call.39fa50e7.svg");}),
 "[project]/public/statics/call.svg.mjs { IMAGE => \"[project]/public/statics/call.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -135,7 +136,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/public/statics/telegram.svg (static in ecmascript)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/telegram.e68f98df.svg");}),
+__turbopack_context__.v("/_next/static/media/telegram.d776404d.svg");}),
 "[project]/public/statics/telegram.svg.mjs { IMAGE => \"[project]/public/statics/telegram.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -155,7 +156,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/public/statics/odnok.svg (static in ecmascript)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/odnok.203b7186.svg");}),
+__turbopack_context__.v("/_next/static/media/odnok.1fe2e40b.svg");}),
 "[project]/public/statics/odnok.svg.mjs { IMAGE => \"[project]/public/statics/odnok.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -175,7 +176,7 @@ const __TURBOPACK__default__export__ = {
 }),
 "[project]/public/statics/vk.svg (static in ecmascript)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/vk.f4448320.svg");}),
+__turbopack_context__.v("/_next/static/media/vk.eeea12f2.svg");}),
 "[project]/public/statics/vk.svg.mjs { IMAGE => \"[project]/public/statics/vk.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -220,23 +221,23 @@ const Header = ()=>{
     const navItems = [
         {
             label: 'Показания',
-            href: '#'
+            href: '#indications'
         },
         {
             label: 'Стоимость',
-            href: '#'
+            href: '#prices'
         },
         {
             label: 'Врачи',
-            href: '#'
+            href: '#doctors'
         },
         {
             label: 'Преимущества',
-            href: '#'
+            href: '#advantages'
         },
         {
             label: 'Контакты',
-            href: '#'
+            href: '#contacts'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -378,9 +379,9 @@ const Header = ()=>{
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "w-full sticky top-14 z-40",
+                className: "w-full sticky top-10 z-40 bg-white",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full px-53",
+                    className: "w-full px-50 bg-white",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                         className: "hidden lg:flex items-center justify-center py-3 space-x-4",
                         children: navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -442,19 +443,19 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 36,
+                    lineNumber: 35,
                     columnNumber: 13
                 }, this),
                 children
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 35,
+            lineNumber: 34,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 34,
+        lineNumber: 33,
         columnNumber: 5
     }, this);
 }

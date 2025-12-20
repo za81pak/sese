@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/rgd/src/app/ClientBody.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { ModalProvider } from './providers/ModalProvider'; // Измени путь\r\n\r\nexport default function ClientBody({\r\n                                       children,\r\n                                   }: {\r\n    children: React.ReactNode;\r\n}) {\r\n    return <ModalProvider>{children}</ModalProvider>;\r\n}"],"names":[],"mappings":";;;;;;;;;;AAAA;;;AAIe,SAAS,WAAW,KAIlC;QAJkC,EACI,QAAQ,EAG9C,GAJkC;IAK/B,qBAAO,6LAAC;kBAAe;;;;;;AAC3B;KANwB","debugId":null}}]
+}

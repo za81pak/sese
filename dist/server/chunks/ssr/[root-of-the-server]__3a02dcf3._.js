@@ -1,0 +1,2046 @@
+module.exports = [
+"[project]/.next-internal/server/app/(routes)/page/actions.js [app-rsc] (server actions loader, ecmascript)", ((__turbopack_context__, module, exports) => {
+
+}),
+"[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/favicon.ico.mjs { IMAGE => \"[project]/src/app/favicon.ico (static in ecmascript)\" } [app-rsc] (structured image object, ecmascript)"));
+}),
+"[project]/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/public/statics/hero.png (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/hero.ee2b5909.png");}),
+"[project]/public/statics/hero.png.mjs { IMAGE => \"[project]/public/statics/hero.png (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$hero$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/hero.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$hero$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 1447,
+    height: 670,
+    blurWidth: 8,
+    blurHeight: 4,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAh0lEQVR42j3KuwrCMBQG4LyziyCKFHtNgkYqSqVKg3axKIhO6tJ2qUvIyxQCB37BofvH3q8PXasbzrrEkiskvoAIJQ4ixiXbEuu6Lz3uT+zSDDyQf6D4CloJnJI5MWsttU2L474YwDoSyKcjVKkkZozp67pxRa5dvEhc4EUunHnOn4xduVH9D3KnWh+V4t8UAAAAAElFTkSuQmCC"
+};
+}),
+"[project]/src/widgets/hero/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$hero$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$hero$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/hero.png.mjs { IMAGE => "[project]/public/statics/hero.png (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+;
+;
+;
+const HeroSection = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative w-full min-h-[700px] overflow-hidden mt-16",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 z-0",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$hero$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$hero$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                    alt: "Центр бариатрической хирургии",
+                    fill: true,
+                    className: "object-cover",
+                    priority: true
+                }, void 0, false, {
+                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                    lineNumber: 10,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                lineNumber: 9,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative z-10 w-full px-53 pt-16 pb-16",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "max-w-2xl",
+                    children: [
+                        " ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "text-white font-bold text-4xl md:text-5xl tracking-tight leading-tight mb-10",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-5xl md:text-5xl mb-3",
+                                    children: "Центр"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                    lineNumber: 24,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-4xl md:text-4xl mb-3",
+                                    children: "Бариатрической"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                    lineNumber: 25,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-3xl md:text-4xl mb-3",
+                                    children: "Хирургии в"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                    lineNumber: 26,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-2xl md:text-3xl",
+                                    children: "Волгограде"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                    lineNumber: 27,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                            lineNumber: 23,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-10",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            className: "text-xl md:text-2xl font-bold text-white mb-6",
+                                            children: "Ваше здоровье и комфорт — наша цель."
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                            lineNumber: 33,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-4",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-white text-base md:text-lg",
+                                                    children: "Мы предлагаем эффективные решения, которые меняют вашу жизнь к лучшему!"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                                    lineNumber: 37,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-white text-base md:text-lg",
+                                                    children: "Современные методики, опытные специалисты и индивидуальный подход к каждому пациенту."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                                    lineNumber: 40,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                            lineNumber: 36,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                    lineNumber: 32,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-wrap gap-6",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-base transition-colors shadow-lg hover:shadow-xl",
+                                            children: "Записаться"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                            lineNumber: 47,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: "bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-base transition-colors shadow-lg hover:shadow-xl",
+                                            children: "Позвонить"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                            lineNumber: 50,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                                    lineNumber: 46,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                            lineNumber: 31,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                    lineNumber: 21,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+                lineNumber: 20,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/widgets/hero/ui/section.ui.tsx",
+        lineNumber: 7,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = HeroSection;
+}),
+"[project]/public/statics/fat.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/fat.e6425b1b.svg");}),
+"[project]/public/statics/fat.svg.mjs { IMAGE => \"[project]/public/statics/fat.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$fat$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/fat.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$fat$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 133,
+    height: 133,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/sugar.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/sugar.913e803e.svg");}),
+"[project]/public/statics/sugar.svg.mjs { IMAGE => \"[project]/public/statics/sugar.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$sugar$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/sugar.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$sugar$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 120,
+    height: 120,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/heart.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/heart.667bb336.svg");}),
+"[project]/public/statics/heart.svg.mjs { IMAGE => \"[project]/public/statics/heart.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$heart$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/heart.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$heart$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 120,
+    height: 120,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/bug.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/bug.c894e502.svg");}),
+"[project]/public/statics/bug.svg.mjs { IMAGE => \"[project]/public/statics/bug.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$bug$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/bug.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$bug$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 120,
+    height: 120,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/pecen.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/pecen.23179016.svg");}),
+"[project]/public/statics/pecen.svg.mjs { IMAGE => \"[project]/public/statics/pecen.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pecen$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/pecen.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pecen$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 120,
+    height: 120,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/serc.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/serc.d69efac7.svg");}),
+"[project]/public/statics/serc.svg.mjs { IMAGE => \"[project]/public/statics/serc.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$serc$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/serc.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$serc$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 120,
+    height: 120,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/src/widgets/card/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$fat$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$fat$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/fat.svg.mjs { IMAGE => "[project]/public/statics/fat.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$sugar$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$sugar$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/sugar.svg.mjs { IMAGE => "[project]/public/statics/sugar.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$heart$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$heart$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/heart.svg.mjs { IMAGE => "[project]/public/statics/heart.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$bug$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$bug$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/bug.svg.mjs { IMAGE => "[project]/public/statics/bug.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pecen$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pecen$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/pecen.svg.mjs { IMAGE => "[project]/public/statics/pecen.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$serc$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$serc$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/serc.svg.mjs { IMAGE => "[project]/public/statics/serc.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+;
+;
+;
+;
+;
+;
+;
+;
+const CardSection = ()=>{
+    const indications = [
+        {
+            id: 1,
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$fat$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$fat$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+            title: "Морбидное ожирение",
+            description: "Хроническое заболевание у пациента с индексом массы тела более 30 кг/м2, когда диеты и упражнения не помогают"
+        },
+        {
+            id: 2,
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$sugar$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$sugar$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+            title: "Осложнения ожирения",
+            description: "Высокое артериальное давление, обструктивное апноэ, повышенный уровень холестерина (дислипидемия)"
+        },
+        {
+            id: 3,
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$heart$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$heart$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+            title: "Сахарный диабет 2 типа",
+            description: "Если медикаментозная терапия не помогает снизить и контролировать сахар в крови"
+        },
+        {
+            id: 4,
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$bug$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$bug$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+            title: "Заболевания суставов, позвоночника",
+            description: "Причиной развития артроза и остеохондроза становится повышенная нагрузка на суставы и позвоночник"
+        },
+        {
+            id: 5,
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pecen$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pecen$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+            title: "Жировая дистрофия печени",
+            description: "Дистрофические процессы, которые вызваны ожирением, приводят к необратимым последствиям — фиброзу, циррозу печени"
+        },
+        {
+            id: 6,
+            icon: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$serc$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$serc$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+            title: "Хронические заболевания",
+            description: "Наличие ожирения способствует воспалению и нарушению сердечной деятельности"
+        }
+    ];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "relative w-full py-16 bg-gradient-to-b from-gray-50 to-white",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "container mx-auto px-4 sm:px-6 lg:px-51",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center mb-16",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-2xl md:text-3xl font-bold text-red-600 mb-6",
+                        children: "ПОКАЗАНИЯ К БАРИАТРИЧЕСКОЙ ОПЕРАЦИИ ДЛЯ ПОХУДЕНИЯ"
+                    }, void 0, false, {
+                        fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                        lineNumber: 56,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                    lineNumber: 55,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8",
+                    children: indications.map((indication)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-white rounded-xl p-3 transition-all duration-300 border border-gray-300 hover:border-red-300 hover:shadow-md flex flex-col items-center",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex justify-center mb-6",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "w-16 h-16 md:w-20 md:h-20 relative",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: indication.icon,
+                                            alt: indication.title,
+                                            fill: true,
+                                            className: "object-contain"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                                            lineNumber: 71,
+                                            columnNumber: 37
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                                        lineNumber: 70,
+                                        columnNumber: 33
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                                    lineNumber: 69,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "text-center flex-grow",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-lg md:text-xl font-bold text-gray-900 mb-4",
+                                            children: indication.title
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                                            lineNumber: 82,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-gray-600 leading-relaxed text-sm md:text-base",
+                                            children: indication.description
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                                            lineNumber: 85,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                                    lineNumber: 81,
+                                    columnNumber: 29
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, indication.id, true, {
+                            fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                            lineNumber: 64,
+                            columnNumber: 25
+                        }, ("TURBOPACK compile-time value", void 0)))
+                }, void 0, false, {
+                    fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+                    lineNumber: 62,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+            lineNumber: 53,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/widgets/card/ui/section.ui.tsx",
+        lineNumber: 51,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = CardSection;
+}),
+"[project]/src/widgets/calc/ui/section.ui.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/widgets/calc/ui/section.ui.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/widgets/calc/ui/section.ui.tsx <module evaluation>", "default");
+}),
+"[project]/src/widgets/calc/ui/section.ui.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/widgets/calc/ui/section.ui.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/widgets/calc/ui/section.ui.tsx", "default");
+}),
+"[project]/src/widgets/calc/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$calc$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/widgets/calc/ui/section.ui.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$calc$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/widgets/calc/ui/section.ui.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$calc$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/src/widgets/stock/ui/section.ui.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/widgets/stock/ui/section.ui.tsx <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/widgets/stock/ui/section.ui.tsx <module evaluation>", "default");
+}),
+"[project]/src/widgets/stock/ui/section.ui.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const __TURBOPACK__default__export__ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call the default export of [project]/src/widgets/stock/ui/section.ui.tsx from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/widgets/stock/ui/section.ui.tsx", "default");
+}),
+"[project]/src/widgets/stock/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$stock$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/widgets/stock/ui/section.ui.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$stock$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/widgets/stock/ui/section.ui.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$stock$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/public/statics/cat.png (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/cat.7c6f5ed3.png");}),
+"[project]/public/statics/cat.png.mjs { IMAGE => \"[project]/public/statics/cat.png (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$cat$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/cat.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$cat$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 1918,
+    height: 685,
+    blurWidth: 8,
+    blurHeight: 3,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAADCAYAAACuyE5IAAAAXElEQVR42kXKvQ5AMBhG4V6/lcHA1kTCKDYixNC0Wvqjdhfi5YvBcJaTh/kQYV2AVBpmszBSYBkHOH9QNyOwWw8xzTjrBiFPUWUJtDY/oOI7rrKA5Bx910KtH3gAje1P58udiXMAAAAASUVORK5CYII="
+};
+}),
+"[project]/src/widgets/ promotion/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$cat$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$cat$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/cat.png.mjs { IMAGE => "[project]/public/statics/cat.png (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+;
+;
+;
+const PromotionSection = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full text-center",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                    className: "text-2xl md:text-3xl font-bold text-red-600 mb-4",
+                    children: "АКЦИЯ"
+                }, void 0, false, {
+                    fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                lineNumber: 8,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative w-full",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "absolute inset-0 flex items-center px-90 top-90 z-10",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: "bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-12 rounded-lg transition-colors shadow-lg hover:shadow-xl text-lg",
+                            children: "ЗАПИСАТЬСЯ"
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                            lineNumber: 16,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                        lineNumber: 15,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "relative w-full h-auto",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$cat$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$cat$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                            alt: "котик",
+                            className: "w-full h-auto"
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                            lineNumber: 23,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                        lineNumber: 22,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+                lineNumber: 13,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/widgets/ promotion/ui/section.ui.tsx",
+        lineNumber: 7,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = PromotionSection;
+}),
+"[project]/public/statics/doctor1.png (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/doctor1.5e306ce4.png");}),
+"[project]/public/statics/doctor1.png.mjs { IMAGE => \"[project]/public/statics/doctor1.png (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor1$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/doctor1.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor1$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 256,
+    height: 256,
+    blurWidth: 8,
+    blurHeight: 8,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAy0lEQVR42lWPwQvBYBjG/W3OLq7+A3cXF5Hi4OTgpoji4CCRkyYHCVNTYglJljZbi8a279u+x76Vw97T0/P83t7njVFKXQSjqyqE0RAHSYLvedwCz2JcOPYXvWoRmWQcuVQCO3GN/4TA29CwH9egrZqYVNIQeu0oQG0Lj1kTSr8EuZHFfTONAoz5UJYDnDt5iPUsjNsxCoQllRMW3TLmrQKe1y0oYyAcYPwE7/FSYcpjuOYFxKehFwIfQlwnEK5HQC0dXrDJn/Q5EGQ/szjo63/iSnUAAAAASUVORK5CYII="
+};
+}),
+"[project]/public/statics/doctor2.png (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/doctor2.524d5b89.png");}),
+"[project]/public/statics/doctor2.png.mjs { IMAGE => \"[project]/public/statics/doctor2.png (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor2$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/doctor2.png (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor2$2e$png__$28$static__in__ecmascript$29$__["default"],
+    width: 408,
+    height: 411,
+    blurWidth: 8,
+    blurHeight: 8,
+    blurDataURL: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAAIAAgDAREAAhEBAxEB/9sAQwAKBwcIBwYKCAgICwoKCw4YEA4NDQ4dFRYRGCMfJSQiHyIhJis3LyYpNCkhIjBBMTQ5Oz4+PiUuRElDPEg3PT47/9sAQwEKCwsODQ4cEBAcOygiKDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1VIJjrRuxKTA0e3YT0P0qLPmv0KuuW1tT/9k="
+};
+}),
+"[project]/src/widgets/doctors/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$doctor1$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/doctor1.png.mjs { IMAGE => "[project]/public/statics/doctor1.png (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$doctor2$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/doctor2.png.mjs { IMAGE => "[project]/public/statics/doctor2.png (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+;
+;
+;
+;
+const DoctorsSection = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "py-12 px-4",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-5xl mx-auto",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center mb-12",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-3xl font-bold text-red-600 mb-4",
+                            children: "НАШИ ВРАЧИ"
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                            lineNumber: 12,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-lg text-gray-600 max-w-2xl mx-auto",
+                            children: "Ваше здоровье в надежных руках наших высококвалифицированных специалистов."
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                            lineNumber: 13,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                    lineNumber: 11,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col md:flex-row gap-8 md:gap-6 justify-center items-start",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex-1 max-w-sm border border-gray-300 rounded-lg p-4 bg-gray-200 flex flex-col",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-6 flex-grow",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative h-80 w-full mb-4",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor1$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$doctor1$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                                                alt: "Тарасов Дмитрий Александрович",
+                                                fill: true,
+                                                className: "object-cover rounded",
+                                                sizes: "(max-width: 768px) 100vw, 50vw"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                lineNumber: 24,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                            lineNumber: 23,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-xl font-bold text-black",
+                                                    children: [
+                                                        "Тарасов",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 35,
+                                                            columnNumber: 44
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        "Дмитрий",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 35,
+                                                            columnNumber: 56
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        "Александрович"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                    lineNumber: 34,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "space-y-1",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-600 font-medium",
+                                                            children: "Хирург (Высшая категория)"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 38,
+                                                            columnNumber: 37
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-600 text-sm",
+                                                            children: "Стаж более 19 лет"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 41,
+                                                            columnNumber: 37
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                    lineNumber: 37,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                            lineNumber: 33,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                    lineNumber: 22,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-auto pt-4 text-center",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-gray-400 text-gray-700 py-2 px-6 rounded-xl text-sm hover:bg-gray-300 transition-colors duration-200 inline-block",
+                                        children: "Отзывы"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                        lineNumber: 48,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                    lineNumber: 47,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                            lineNumber: 21,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex-1 max-w-sm border border-gray-300 rounded-lg p-4 bg-gray-200 flex flex-col",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mb-6 flex-grow",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "relative h-80 w-full mb-4",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$doctor2$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$doctor2$2e$png__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                                                alt: "Шпирный Сергей Анатольевич",
+                                                fill: true,
+                                                className: "object-cover rounded",
+                                                sizes: "(max-width: 768px) 100vw, 50vw"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                lineNumber: 58,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                            lineNumber: 57,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0)),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "space-y-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "text-xl font-bold text-black",
+                                                    children: [
+                                                        "Шпирный",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 69,
+                                                            columnNumber: 44
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        "Сергей",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 69,
+                                                            columnNumber: 55
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        "Анатольевич"
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                    lineNumber: 68,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0)),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "space-y-1",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-600 font-medium",
+                                                            children: "Хирург (Высшая категория)"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 72,
+                                                            columnNumber: 37
+                                                        }, ("TURBOPACK compile-time value", void 0)),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-gray-600 text-sm",
+                                                            children: "Стаж более 22 лет"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                            lineNumber: 75,
+                                                            columnNumber: 37
+                                                        }, ("TURBOPACK compile-time value", void 0))
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                                    lineNumber: 71,
+                                                    columnNumber: 33
+                                                }, ("TURBOPACK compile-time value", void 0))
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                            lineNumber: 67,
+                                            columnNumber: 29
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                    lineNumber: 56,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-auto pt-4 text-center",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "bg-gray-400 text-gray-700 py-2 px-6 rounded-xl text-sm hover:bg-gray-300 transition-colors duration-200 inline-block",
+                                        children: "Отзывы"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                        lineNumber: 82,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                                    lineNumber: 81,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                            lineNumber: 55,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+                    lineNumber: 19,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+            lineNumber: 9,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/widgets/doctors/ui/section.ui.tsx",
+        lineNumber: 8,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = DoctorsSection;
+}),
+"[project]/public/statics/pop.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/pop.b7dc2667.svg");}),
+"[project]/public/statics/pop.svg.mjs { IMAGE => \"[project]/public/statics/pop.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/pop.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 118,
+    height: 118,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/pop2.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/pop2.d6d0509f.svg");}),
+"[project]/public/statics/pop2.svg.mjs { IMAGE => \"[project]/public/statics/pop2.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop2$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/pop2.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop2$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 110,
+    height: 110,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/public/statics/pop3.svg (static in ecmascript)", ((__turbopack_context__) => {
+
+__turbopack_context__.v("/_next/static/media/pop3.59c8543a.svg");}),
+"[project]/public/statics/pop3.svg.mjs { IMAGE => \"[project]/public/statics/pop3.svg (static in ecmascript)\" } [app-rsc] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop3$2e$svg__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/public/statics/pop3.svg (static in ecmascript)");
+;
+const __TURBOPACK__default__export__ = {
+    src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop3$2e$svg__$28$static__in__ecmascript$29$__["default"],
+    width: 110,
+    height: 110,
+    blurWidth: 0,
+    blurHeight: 0
+};
+}),
+"[project]/src/widgets/Advantages/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pop$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/pop.svg.mjs { IMAGE => "[project]/public/statics/pop.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop2$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pop2$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/pop2.svg.mjs { IMAGE => "[project]/public/statics/pop2.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop3$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pop3$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__ = __turbopack_context__.i('[project]/public/statics/pop3.svg.mjs { IMAGE => "[project]/public/statics/pop3.svg (static in ecmascript)" } [app-rsc] (structured image object with data url, ecmascript)');
+;
+;
+;
+;
+;
+const AdvantagesSection = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "py-16 px-4 bg-gray-50",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "max-w-[1120px] mx-auto",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "text-center mb-16",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-4xl font-bold text-red-600 mb-6",
+                        children: "НАШИ ПРЕИМУЩЕСТВА"
+                    }, void 0, false, {
+                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                        lineNumber: 13,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: " grid grid-cols-1 md:grid-cols-3 gap-8",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-gray-200 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative w-20 h-20 mb-6",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pop$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                                            alt: "Высококалифицированные специалисты",
+                                            fill: true,
+                                            className: "object-contain"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                            lineNumber: 23,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 22,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-bold text-black mb-4 text-center",
+                                        children: "Высококалифицированные специалисты"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 32,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-gray-600 text-center",
+                                        children: "Опытные хирурги обладают необходимыми навыками и знаниями для выполнения сложных операций. Совершенствуют свои профессиональные навыки и следят за последними достижениями в области бариатрической хирургии."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                lineNumber: 20,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                            lineNumber: 19,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-gray-200 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative w-20 h-20 mb-6",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop2$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pop2$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                                            alt: "Современное оборудование",
+                                            fill: true,
+                                            className: "object-contain"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                            lineNumber: 46,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 45,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-bold text-black mb-4 text-center",
+                                        children: "Современное оборудование"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 55,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-gray-600 text-center",
+                                        children: "Высокотехнологичное и надежное оборудование соответствует всем мировым стандартам безопасности и качества. Позволяет гарантировать высокий уровень результатов и минимизировать риски осложнений."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                lineNumber: 43,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                            lineNumber: 42,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "bg-gray-200 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "flex flex-col items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "relative w-20 h-20 mb-6",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                            src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$statics$2f$pop3$2e$svg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$statics$2f$pop3$2e$svg__$28$static__in__ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"],
+                                            alt: "Доступные цены",
+                                            fill: true,
+                                            className: "object-contain"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                            lineNumber: 69,
+                                            columnNumber: 33
+                                        }, ("TURBOPACK compile-time value", void 0))
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 68,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-xl font-bold text-black mb-4 text-center",
+                                        children: "Доступные цены"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0)),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-gray-600 text-center",
+                                        children: "Доступная бариатрическая хирургия предлагает пациентам гибкие цены и различные варианты оплаты. Для постоянных клиентов предусмотрены скидки и персональные предложения."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                        lineNumber: 81,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                                lineNumber: 66,
+                                columnNumber: 25
+                            }, ("TURBOPACK compile-time value", void 0))
+                        }, void 0, false, {
+                            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                            lineNumber: 65,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+                    lineNumber: 17,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+            lineNumber: 10,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/widgets/Advantages/ui/section.ui.tsx",
+        lineNumber: 9,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = AdvantagesSection;
+}),
+"[project]/src/components/ui/accordion.tsx [app-rsc] (client reference proxy) <module evaluation>", ((__turbopack_context__) => {
+"use strict";
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+__turbopack_context__.s([
+    "Accordion",
+    ()=>Accordion,
+    "AccordionContent",
+    ()=>AccordionContent,
+    "AccordionItem",
+    ()=>AccordionItem,
+    "AccordionTrigger",
+    ()=>AccordionTrigger
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const Accordion = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call Accordion() from the server but Accordion is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx <module evaluation>", "Accordion");
+const AccordionContent = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call AccordionContent() from the server but AccordionContent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx <module evaluation>", "AccordionContent");
+const AccordionItem = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call AccordionItem() from the server but AccordionItem is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx <module evaluation>", "AccordionItem");
+const AccordionTrigger = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call AccordionTrigger() from the server but AccordionTrigger is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx <module evaluation>", "AccordionTrigger");
+}),
+"[project]/src/components/ui/accordion.tsx [app-rsc] (client reference proxy)", ((__turbopack_context__) => {
+"use strict";
+
+// This file is generated by next-core EcmascriptClientReferenceModule.
+__turbopack_context__.s([
+    "Accordion",
+    ()=>Accordion,
+    "AccordionContent",
+    ()=>AccordionContent,
+    "AccordionItem",
+    ()=>AccordionItem,
+    "AccordionTrigger",
+    ()=>AccordionTrigger
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-server-dom-turbopack-server.js [app-rsc] (ecmascript)");
+;
+const Accordion = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call Accordion() from the server but Accordion is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx", "Accordion");
+const AccordionContent = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call AccordionContent() from the server but AccordionContent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx", "AccordionContent");
+const AccordionItem = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call AccordionItem() from the server but AccordionItem is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx", "AccordionItem");
+const AccordionTrigger = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerClientReference"])(function() {
+    throw new Error("Attempted to call AccordionTrigger() from the server but AccordionTrigger is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
+}, "[project]/src/components/ui/accordion.tsx", "AccordionTrigger");
+}),
+"[project]/src/components/ui/accordion.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/src/components/ui/accordion.tsx [app-rsc] (client reference proxy) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__ = __turbopack_context__.i("[project]/src/components/ui/accordion.tsx [app-rsc] (client reference proxy)");
+;
+__turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$client__reference__proxy$29$__);
+}),
+"[project]/src/widgets/faq/ui/section.ui.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/accordion.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+const FaqSection = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "py-16 px-4",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "jsx-9b8cd5a524bb2ea1" + " " + "max-w-4xl mx-auto",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "jsx-9b8cd5a524bb2ea1" + " " + "text-center mb-12",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "jsx-9b8cd5a524bb2ea1" + " " + "text-4xl font-bold text-red-600 mb-6",
+                        children: "ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ"
+                    }, void 0, false, {
+                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                        lineNumber: 10,
+                        columnNumber: 21
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(void 0, {
+                    id: "9b8cd5a524bb2ea1",
+                    children: "[data-state=open] .accordion-plus{display:none}[data-state=open] .accordion-minus,[data-state=closed] .accordion-plus{display:inline-block}[data-state=closed] .accordion-minus{display:none}"
+                }, void 0, false, void 0, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Accordion"], {
+                    type: "multiple",
+                    defaultValue: [
+                        "item-1"
+                    ],
+                    className: "space-y-4",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                            value: "item-1",
+                            className: "border border-gray-300 rounded-lg bg-white",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                    className: "px-6 py-4 text-lg font-bold text-black hover:no-underline hover:bg-gray-50 [&>svg]:hidden",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center justify-between w-full",
+                                        children: [
+                                            "Виды операций",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-plus text-xl text-gray-600",
+                                                        children: "+"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 29,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-minus text-xl text-gray-600",
+                                                        children: "-"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 30,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 28,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 26,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 25,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                    className: "px-6 pb-6",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "space-y-6",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "flex flex-col md:flex-row gap-6 items-start",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "w-full md:w-2/3 space-y-4",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black",
+                                                                children: "Что такое бандажирование желудка"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 40,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                                children: "Для уменьшения желудка на верхнюю часть накладывают силиконовое кольцо. Регулируемый бандаж делит орган на две части, которые сообщаются между собой через небольшой просвет. Операция направлена на создание механического препятствия, чтобы уменьшить количество пищи, которое пациент сможет съесть за 1 раз. Количество потребляемых калорий уменьшается, в результате происходит снижение веса."
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 41,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 39,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "w-full md:w-1/3"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 51,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 37,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "space-y-6 mt-8",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-2",
+                                                                children: "Что такое рукавная гастропластика"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 59,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                                children: "Рукавная резекция желудка - уменьшение объема органа до 100 мл. Хирургическое вмешательство заключается в удалении бОльшей части органа, чтобы снизить количество потребляемой пищи. В результате ушивания при помощи специальных кассет остается тонкая полая трубка. Через нее может пройти небольшое количество пищи. Это приводит к естественному похудению — пациент с морбидным ожирением может потерять до 75% лишнего веса."
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 60,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 58,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-2",
+                                                                children: "Что такое гастрипликация"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 71,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                                children: 'Гастрипликация — это операция, при которой желудок "складывают" и ушивают, чтобы уменьшить его объем. После гастрипликации пациент быстрее чувствует насыщение даже от небольшого количества еды. Это помогает снизить количество потребляемых калорий и, как следствие, способствует похудению.'
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 72,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 70,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-2",
+                                                                children: "Что такое шунтирование желудка"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 81,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                                children: "Гастрошунтирование выполняется с целью уменьшения объема желудка. Суть гастрошунтирования заключается в уменьшении размера желудка до 30 мл и соединении его с петлей тонкой кишки. Во время операции бОльшую часть органа удаляют, а из оставшегося отдела формируют малый желудок. Его соединяют с петлей тонкой кишки. После шунтирования потребление пищи сокращается и происходит снижение веса."
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 82,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 80,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-2",
+                                                                children: "Что такое внутрижелудочный баллон"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 88,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0)),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                                children: "Установка внутрижелудочного баллона — малоинвазивная бариатрическая операция для лечения ожирения. Суть операции - введение в желудок силиконового баллона с дальнейшим наполнением его физиологическим раствором. Установку внутрижелудочного баллона проводят с помощью эндоскопического оборудования. Баллон служит временной мерой для снижения аппетита, уменьшения количества потребляемой пищи. Помогает сформировать правильное пищевое поведение, плавно снизить вес."
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                                lineNumber: 89,
+                                                                columnNumber: 41
+                                                            }, ("TURBOPACK compile-time value", void 0))
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 87,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 57,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 34,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                            lineNumber: 24,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                            value: "item-2",
+                            className: "border border-gray-300 rounded-lg bg-white",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                    className: "px-6 py-4 text-lg font-bold text-black hover:no-underline hover:bg-gray-50 [&>svg]:hidden",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center justify-between w-full",
+                                        children: [
+                                            "Показания к операции",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-plus text-xl text-gray-600",
+                                                        children: "+"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 104,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-minus text-xl text-gray-600",
+                                                        children: "-"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 105,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 103,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 101,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 100,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                    className: "px-6 pb-6",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "space-y-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-4",
+                                                children: "Основные показания:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 111,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "list-decimal pl-5 space-y-2 text-gray-600",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Ожирение 3-й степени (морбидное). Когда ИМТ ≥ 40 кг/м², а также ИМТ ≥ 35 кг/м², но есть сопутствующие заболевания;"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 113,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Неэффективность консервативных методов снижения массы тела;"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 114,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Лечение коморбидной патологии (сахарный диабет 2 типа, гипертоническая болезнь, апноэ и т.д.)."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 115,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 112,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 110,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 109,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                            lineNumber: 99,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                            value: "item-3",
+                            className: "border border-gray-300 rounded-lg bg-white",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                    className: "px-6 py-4 text-lg font-bold text-black hover:no-underline hover:bg-gray-50 [&>svg]:hidden",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center justify-between w-full",
+                                        children: [
+                                            "Восстановление после операции",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-plus text-xl text-gray-600",
+                                                        children: "+"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 127,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-minus text-xl text-gray-600",
+                                                        children: "-"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 128,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 126,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 124,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 123,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                    className: "px-6 pb-6",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "space-y-4",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-4",
+                                                children: "Основные этапы восстановления:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 134,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "list-decimal pl-5 space-y-2 text-gray-600",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Нахождение в хирургическом отделении стационара под присмотром лечащего врача;"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 136,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Лечение в соответствии с назначением смежных специалистов (кардиолог, эндокринолог и т.д.);"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 137,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Диетотерапия;"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 138,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        className: "jsx-9b8cd5a524bb2ea1",
+                                                        children: "Постепенная дозированная физическая нагрузка;"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 139,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 135,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600 mt-4",
+                                                children: "Этапы и сроки восстановления носят индивидуальный характер и назначаются лечащим врачом на очной консультации."
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 141,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 133,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 132,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                            lineNumber: 122,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0)),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionItem"], {
+                            value: "item-4",
+                            className: "border border-gray-300 rounded-lg bg-white",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionTrigger"], {
+                                    className: "px-6 py-4 text-lg font-bold text-black hover:no-underline hover:bg-gray-50 [&>svg]:hidden",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center justify-between w-full",
+                                        children: [
+                                            "Другое",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "flex items-center",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-plus text-xl text-gray-600",
+                                                        children: "+"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 154,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "accordion-minus text-xl text-gray-600",
+                                                        children: "-"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 155,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 153,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 151,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 150,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0)),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$accordion$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["AccordionContent"], {
+                                    className: "px-6 pb-6",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "space-y-6",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-9b8cd5a524bb2ea1",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-4",
+                                                        children: "Подготовка к операции"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 162,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                        children: 'включает в себя: лабораторную диагностику, УЗИ органов брюшной полости и щитовидной железы, Эхо-КГ, УЗИ вен нижних конечностей, ЭГДС, рентгенография грудной клетки. Перед операцией пациента консультирует диетолог, терапевт, эндокринолог, при необходимости – другие врачи-специалисты. Окончательный объем исследований назначает лечащий врач на очной консультации. Весь комплекс предгоспитального обследования можно пройти в стационаре "РЖД-Медицина" г. Волгоград.'
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 163,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 161,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0)),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-9b8cd5a524bb2ea1" + " " + "border-t pt-6",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "text-lg font-bold text-black mb-4",
+                                                        children: "Наркоз"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 169,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0)),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "jsx-9b8cd5a524bb2ea1" + " " + "text-gray-600",
+                                                        children: "Все бариатрические оперативные вмешательства проводятся под общим наркозом. Перед операцией пациент в обязательном порядке консультируется у врача-анестезиолога."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                        lineNumber: 170,
+                                                        columnNumber: 37
+                                                    }, ("TURBOPACK compile-time value", void 0))
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                                lineNumber: 168,
+                                                columnNumber: 33
+                                            }, ("TURBOPACK compile-time value", void 0))
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                        lineNumber: 160,
+                                        columnNumber: 29
+                                    }, ("TURBOPACK compile-time value", void 0))
+                                }, void 0, false, {
+                                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                                    lineNumber: 159,
+                                    columnNumber: 25
+                                }, ("TURBOPACK compile-time value", void 0))
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                            lineNumber: 149,
+                            columnNumber: 21
+                        }, ("TURBOPACK compile-time value", void 0))
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+                    lineNumber: 22,
+                    columnNumber: 17
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+            lineNumber: 7,
+            columnNumber: 13
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/src/widgets/faq/ui/section.ui.tsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+const __TURBOPACK__default__export__ = FaqSection;
+}),
+"[project]/src/app/(routes)/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Home
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$hero$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/hero/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$card$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/card/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$calc$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/calc/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$stock$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/stock/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$__promotion$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/ promotion/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$doctors$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/doctors/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$Advantages$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/Advantages/ui/section.ui.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$faq$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/widgets/faq/ui/section.ui.tsx [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+function Home() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$hero$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 14,
+                columnNumber: 9
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$card$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 15,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$calc$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 16,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$stock$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 17,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$__promotion$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 18,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$doctors$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 19,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$Advantages$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 20,
+                columnNumber: 11
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$widgets$2f$faq$2f$ui$2f$section$2e$ui$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                fileName: "[project]/src/app/(routes)/page.tsx",
+                lineNumber: 21,
+                columnNumber: 11
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/src/app/(routes)/page.tsx",
+        lineNumber: 13,
+        columnNumber: 7
+    }, this);
+}
+}),
+"[project]/src/app/(routes)/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/(routes)/page.tsx [app-rsc] (ecmascript)"));
+}),
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__3a02dcf3._.js.map

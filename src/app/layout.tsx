@@ -3,7 +3,6 @@ import { Playfair_Display, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/widgets/header";
 
-
 const playFairDisplay = Playfair_Display ({
     variable: "--font-playfair",
     subsets: ["latin", "cyrillic"],
@@ -34,37 +33,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${openSans.variable} ${playFairDisplay.variable}  font-sans bg-white-  text-white/60 antialiased`}>
             <Header/>
+
+
         {children}
       </body>
     </html>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

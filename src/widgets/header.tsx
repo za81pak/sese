@@ -9,11 +9,11 @@ import vk from "../../public/statics/vk.svg";
 
 const Header = () => {
     const navItems = [
-        { label: 'Показания', href: '#' },
-        { label: 'Стоимость', href: '#' },
-        { label: 'Врачи', href: '#' },
-        { label: 'Преимущества', href: '#' },
-        { label: 'Контакты', href: '#' },
+        { label: 'Показания', href: '#indications' },
+        { label: 'Стоимость', href: '#prices' },
+        { label: 'Врачи', href: '#doctors' },
+        { label: 'Преимущества', href: '#advantages' },
+        { label: 'Контакты', href: '#contacts' },
     ];
 
     return (
@@ -90,8 +90,8 @@ const Header = () => {
             </header>
 
             {/* Нижняя часть с навигацией - отдельные блоки с отступами */}
-            <div className="w-full sticky top-14 z-40">
-                <div className="w-full px-53">
+            <div className="w-full sticky top-10 z-40 bg-white">
+                <div className="w-full px-50 bg-white">
                     <nav className="hidden lg:flex items-center justify-center py-3 space-x-4">
                         {navItems.map((item) => (
                             <a

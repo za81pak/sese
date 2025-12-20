@@ -1,8 +1,12 @@
-import React from 'react';
+"use client";
+
+import React, { useState } from 'react';
+import AppointmentModal from '../../../app/components/AppointmentModal';
 import Image from 'next/image';
 import hero from '../../../../public/statics/hero.png';
 
 const HeroSection = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false);
     return (
         <section className="relative w-full min-h-[700px] overflow-hidden mt-16">
             {/* Фоновое изображение */}
@@ -44,16 +48,17 @@ const HeroSection = () => {
                         </div>
 
                         <div className="flex flex-wrap gap-6">
-                            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-base transition-colors shadow-lg hover:shadow-xl">
+                            <button onClick={() => setIsModalOpen(true)} className="cursor-pointer bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-base transition-colors shadow-lg hover:shadow-xl">
                                 Записаться
                             </button>
-                            <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-base transition-colors shadow-lg hover:shadow-xl">
+                            <button className=" cursor-pointer bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg font-semibold text-base transition-colors shadow-lg hover:shadow-xl">
                                 Позвонить
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
+            <AppointmentModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}/>
         </section>
     );
 };
