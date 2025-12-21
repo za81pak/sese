@@ -22,6 +22,7 @@ const openSans = Open_Sans ({
 export const metadata: Metadata = {
   title: "rgd",
   description: "сайт ржд медецины",
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
 };
 
 export default function RootLayout({

@@ -119,8 +119,28 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 }
+* {
+  box-sizing: border-box;
+}
 
-
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+button,
+input,
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+}
 html {
   scroll-padding-top: 80px;
     scroll-behavior: smooth;
