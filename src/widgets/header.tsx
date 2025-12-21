@@ -12,6 +12,7 @@ import vk from "../../public/statics/vk.svg";
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const menuRef = useRef<HTMLDivElement>(null);
+    const burgerRef = useRef<HTMLButtonElement>(null);
 
     const navItems = [
         { label: 'Показания', href: '#indications' },
@@ -23,14 +24,28 @@ const Header = () => {
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
-            if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+            // Закрываем меню только если клик был вне меню И вне кнопки бургера
+            if (menuRef.current &&
+                !menuRef.current.contains(event.target as Node) &&
+                burgerRef.current &&
+                !burgerRef.current.contains(event.target as Node)) {
+                setIsMenuOpen(false);
+            }
+        };
+
+        // Закрываем меню при нажатии Escape
+        const handleEscapeKey = (event: KeyboardEvent) => {
+            if (event.key === 'Escape') {
                 setIsMenuOpen(false);
             }
         };
 
         document.addEventListener('mousedown', handleClickOutside);
+        document.addEventListener('keydown', handleEscapeKey);
+
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
+            document.removeEventListener('keydown', handleEscapeKey);
         };
     }, []);
 
@@ -42,12 +57,27 @@ const Header = () => {
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
+            // Добавляем отступ для хедера
+            const headerHeight = document.getElementById('header')?.offsetHeight || 120;
             window.scrollTo({
-                top: targetElement.offsetTop - 120,
+                top: targetElement.offsetTop - headerHeight,
                 behavior: 'smooth'
             });
         }
     };
+
+    // Блокируем скролл страницы при открытом меню
+    useEffect(() => {
+        if (isMenuOpen) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'unset';
+        }
+
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, [isMenuOpen]);
 
     return (
         <>
@@ -65,9 +95,11 @@ const Header = () => {
 
                     {/* Бургер-кнопка */}
                     <button
-                        className="md:hidden flex flex-col justify-center items-center w-10 h-10 z-50"
+                        ref={burgerRef}
+                        className="md:hidden flex flex-col justify-center items-center w-10 h-10 z-50 relative"
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         aria-label="Открыть меню"
+                        aria-expanded={isMenuOpen}
                     >
                         <span className={`block w-6 h-0.5 bg-gray-700 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
                         <span className={`block w-6 h-0.5 bg-gray-700 mt-1.5 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
@@ -104,24 +136,15 @@ const Header = () => {
                     </div>
                 </Container>
 
-                {/* Мобильное меню с кнопкой закрытия */}
+                {/* Мобильное меню */}
                 <div
                     ref={menuRef}
-                    className={`md:hidden fixed top-0 left-0 w-full h-screen bg-white z-40 transform transition-transform duration-300 ${
-                        isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+                    className={`md:hidden fixed top-0 left-0 w-full h-screen bg-white z-40 transition-all duration-300 ${
+                        isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
                     }`}
+                    aria-hidden={!isMenuOpen}
                 >
-                    {/* Кнопка закрытия (крестик ✕) */}
-                    <button
-                        className="absolute top-5 right-5 w-10 h-10 flex items-center justify-center z-50"
-                        onClick={() => setIsMenuOpen(false)}
-                        aria-label="Закрыть меню"
-                    >
-                        <span className="block w-6 h-0.5 bg-gray-700 rotate-45"></span>
-                        <span className="block w-6 h-0.5 bg-gray-700 -rotate-45 -translate-x-6"></span>
-                    </button>
-
-                    <div className="pt-20 px-6">
+                    <div className="pt-20 px-6 h-full overflow-y-auto">
                         {/* Телефон и соцсети в меню */}
                         <div className="mb-8">
                             <a
@@ -154,12 +177,7 @@ const Header = () => {
                         {/* Навигация в меню */}
                         <nav className="flex flex-col space-y-4">
                             {navItems.map((item) => (
-                                <a
-                                    key={item.label}
-                                    href={item.href}
-                                    onClick={(e) => scrollToSection(e, item.href)}
-                                    className="py-4 px-4 bg-gray-50 rounded-lg text-gray-800 hover:text-white hover:bg-red-600 transition-colors text-lg font-medium"
-                                >
+                                <a key={item.label} href={item.href} onClick={(e) => scrollToSection(e, item.href)} className="py-4 px-4 bg-gray-50 rounded-lg text-gray-800 hover:text-white hover:bg-red-600 transition-colors text-lg font-medium">
                                     {item.label}
                                 </a>
                             ))}

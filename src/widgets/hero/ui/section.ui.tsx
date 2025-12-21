@@ -14,23 +14,26 @@ const HeroSection = () => {
     };
 
     return (
-        <section className="relative w-full min-h-[500px] sm:min-h-[600px] md:min-h-[700px] overflow-hidden">
+        <section className="relative w-full  min-h-[500px] sm:min-h-[600px] md:min-h-[700px] overflow-hidden">
             {/* Фоновое изображение с адаптивностью */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src={hero}
                     alt="Центр бариатрической хирургии"
                     fill
-                    className="object-cover"
+                    className="object-cover object-right md:object-center"
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
+                    style={{
+                        objectPosition: 'right center'
+                    }}
                 />
                 {/* Затемнение фона для лучшей читаемости текста */}
                 <div className="absolute inset-0 bg-black/40 md:bg-black/30"></div>
             </div>
 
             {/* Контент поверх изображения */}
-            <div className="relative z-10 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-12 md:py-16 lg:py-20">
+            <div className="relative left-1/13 z-10 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-12 md:py-16 lg:py-20">
                 <div className="max-w-2xl mx-auto md:mx-0">
                     {/* Заголовок с адаптивными размерами */}
                     <div className="text-white font-bold tracking-tight leading-tight mb-8 md:mb-10">

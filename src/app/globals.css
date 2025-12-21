@@ -134,7 +134,6 @@ textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border-radius: 0;
 }
 @media (max-width: 768px) {
   html {
