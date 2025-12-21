@@ -120,6 +120,7 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+
 html {
   scroll-padding-top: 80px;
     scroll-behavior: smooth;

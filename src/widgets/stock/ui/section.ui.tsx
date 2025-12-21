@@ -46,22 +46,22 @@ const StockSlider = () => {
     ];
 
     return (
-        <section id="prices" className="mx-auto px-16 relative w-full py-16 bg-gradient-to-b from-white to-gray-50">
+        <section id="prices" className="mx-auto px-4 sm:px-8 lg:px-16 xl:px-16 relative w-full py-8 sm:py-12 lg:py-16 bg-gradient-to-b from-white to-gray-50">
             {/* Контейнер с такими же отступами как у хедера */}
-            <div className="mx-auto px-4 sm:px-6 lg:px-32">
+            <div className="mx-auto px-4 sm:px-6 lg:px-8 xl:px-32">
                 {/* Заголовок секции */}
-                <div className="text-center mb-12">
-                    <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">
+                <div className="text-center mb-8 sm:mb-10 lg:mb-12">
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-red-600 mb-4">
                         УСЛУГИ И ЦЕНЫ
                     </h2>
                 </div>
 
                 {/* Контейнер слайдера */}
-                <div className="relative">
+                <div className="relative px-2 sm:px-0">
                     <Swiper
                         modules={[Navigation, Autoplay]}
-                        spaceBetween={20}
-                        slidesPerView={1.2}
+                        spaceBetween={16}
+                        slidesPerView={1}
                         loop={true}
                         watchSlidesProgress={true}
                         slideVisibleClass="swiper-slide-visible"
@@ -76,38 +76,42 @@ const StockSlider = () => {
                         }}
                         breakpoints={{
                             640: {
-                                slidesPerView: 1.5,
-                                spaceBetween: 20,
+                                slidesPerView: 1,
+                                spaceBetween: 16,
                             },
                             768: {
-                                slidesPerView: 2.2,
-                                spaceBetween: 24,
+                                slidesPerView: 2,
+                                spaceBetween: 20,
                             },
                             1024: {
-                                slidesPerView: 3, // Исправлена опечатка (было 3.,)
+                                slidesPerView: 3,
+                                spaceBetween: 24,
+                            },
+                            1280: {
+                                slidesPerView: 3,
                                 spaceBetween: 24,
                             },
                         }}
                     >
                         {services.map((service) => (
                             <SwiperSlide key={service.id}>
-                                <div className="bg-gray-100 rounded-2xl p-6 h-full min-h-[280px] flex flex-col">
+                                <div className="bg-gray-100 rounded-2xl p-4 sm:p-5 lg:p-6 h-full min-h-[260px] sm:min-h-[270px] lg:min-h-[280px] flex flex-col">
                                     {/* Заголовок услуги */}
-                                    <h3 className="text-xl font-bold text-gray-900 mb-4">
+                                    <h3 className="text-lg sm:text-xl lg:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
                                         {service.title}
                                     </h3>
 
                                     {/* Описание */}
-                                    <p className="text-gray-600 mb-6 leading-relaxed flex-grow">
+                                    <p className="text-gray-600 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6 flex-grow">
                                         {service.description}
                                     </p>
 
                                     {/* Цена и кнопка - цена слева, кнопка справа */}
-                                    <div className="flex justify-between items-center mt-auto pt-4">
-                                        <div className="text-xl font-bold text-red-600">
+                                    <div className="flex justify-between items-center mt-auto pt-3 sm:pt-4">
+                                        <div className="text-lg sm:text-xl font-bold text-red-600">
                                             {service.price}
                                         </div>
-                                        <button onClick={() => setIsModalOpen(true)} className="cursor-pointer bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-md hover:shadow-lg whitespace-nowrap text-sm md:text-base">
+                                        <button onClick={() => setIsModalOpen(true)} className="cursor-pointer bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 sm:py-3 sm:px-6 rounded-lg transition-colors shadow-md hover:shadow-lg whitespace-nowrap text-xs sm:text-sm md:text-base">
                                             Записаться
                                         </button>
                                     </div>
@@ -120,22 +124,21 @@ const StockSlider = () => {
                     <button
                         ref={prevRef}
                         onClick={() => swiperRef.current?.slidePrev()}
-                        className=" absolute left-0 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-white shadow-lg rounded-full text-red-600 flex items-center justify-center hover:bg-gray-50 transition-colors"
+                        className="hidden sm:flex absolute left-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 bg-white shadow-lg rounded-full text-red-600 items-center justify-center hover:bg-gray-50 transition-colors"
                         style={{ left: '-10px' }}
                     >
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
                         </svg>
                     </button>
 
                     <button
                         ref={nextRef}
-
                         onClick={() => swiperRef.current?.slideNext()}
-                        className="cursor-pointer absolute right-0 top-1/2 transform -translate-y-1/2 z-10 w-10 h-10 bg-white shadow-lg rounded-full text-red-600 flex items-center justify-center hover:bg-gray-50 transition-colors"
+                        className="hidden sm:flex cursor-pointer absolute right-0 top-1/2 transform -translate-y-1/2 z-10 w-8 h-8 sm:w-10 sm:h-10 bg-white shadow-lg rounded-full text-red-600 items-center justify-center hover:bg-gray-50 transition-colors"
                         style={{ right: '-10px' }}
                     >
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
                     </button>

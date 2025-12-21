@@ -21,7 +21,7 @@ const openSans = Open_Sans ({
 
 export const metadata: Metadata = {
   title: "rgd",
-  description: "bobr",
+  description: "сайт ржд медецины",
 };
 
 export default function RootLayout({

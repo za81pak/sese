@@ -10,19 +10,19 @@ const PromotionSection = () => {
 
     return (
         <>
-            <section>
-                <div className="w-full text-center">
-                    <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">АКЦИЯ</h2>
+            <section className="px-4 sm:px-8 lg:px-16">
+                <div className="w-full text-center mb-4 sm:mb-6 lg:mb-8">
+                    <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4 sm:text-xl lg:text-3xl">АКЦИЯ</h2>
                 </div>
                 <div className="w-full relative">
                     {/* Картинка с котиком */}
-                    <Image src={cat} alt="котик"/>
+                    <Image src={cat} alt="котик" className="w-full h-auto"/>
 
                     {/* Кнопка на фоне картинки, смещённая левее */}
-                    <div className="absolute bottom-18 px-90 eft-1/4"> {/* Изменил с left-1/2 на left-1/4 */}
+                    <div className="absolute  px-27 left-1/5 sm:bottom-6 sm:px-24 sm:left-4 md:bottom-12 md:px-8 md:left-8 lg:bottom-12 lg:px-10 lg:left-1/6">
                         <button
                             onClick={() => setIsModalOpen(true)}
-                            className="cursor-pointer bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-12 rounded-lg transition-colors shadow-lg hover:shadow-xl text-lg"
+                            className="cursor-pointer bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition-colors shadow-lg hover:shadow-xl text-xs sm:py-2 sm:px-6 sm:text-sm md:py-3 md:px-8 md:text-base lg:py-4 lg:px-12 lg:text-lg"
                         >
                             ЗАПИСАТЬСЯ
                         </button>
