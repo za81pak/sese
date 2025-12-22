@@ -123,11 +123,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  overflow-x: hidden;
-  width: 100%;
-  position: relative;
-}
 button,
 input,
 textarea {
@@ -152,4 +147,10 @@ html {
   body {
     @apply bg-background text-foreground;
   }
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+  overscroll-behavior-y: none;
 }
