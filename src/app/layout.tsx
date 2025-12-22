@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Open_Sans } from "next/font/google";
 import "./globals.css";
+import FixMobileJump from '../app/components/FixMobileJump';
 import Header from "@/widgets/header";
 
 const playFairDisplay = Playfair_Display ({
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${openSans.variable} ${playFairDisplay.variable}  font-sans bg-white-  text-white/60 antialiased`}>
+      <FixMobileJump />
             <Header/>
 
 

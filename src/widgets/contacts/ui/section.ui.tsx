@@ -41,7 +41,7 @@ const ContactsSection = () => {
                         <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px]">
                             <iframe
                                 src="https://yandex.ru/map-widget/v1/org/rzhd_meditsina_statsionar/113592397967/?from=mapframe&ll=44.404658%2C48.693522&z=16"
-                                width="100%"
+                                max-width="100%"
                                 height="100%"
                                 frameBorder="0"
                                 className="absolute inset-0 w-full h-full"
