@@ -6,7 +6,7 @@ import pop3 from '../../../../public/statics/pop3.svg';
 
 const AdvantagesSection = () => {
     return (
-        <section id="advantages" className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <div className="max-w-[1120px] mx-auto">
                 {/* Заголовок секции */}
                 <div className="text-center mb-8 sm:mb-12 lg:mb-16">
@@ -21,12 +21,12 @@ const AdvantagesSection = () => {
                     <div className="bg-gray-200 rounded-lg sm:rounded-xl shadow-md sm:shadow-lg p-4 sm:p-5 lg:p-6 hover:shadow-lg sm:hover:shadow-xl transition-shadow duration-300">
                         <div className="flex flex-col items-center">
                             {/* Иконка */}
-                            <div className="relative w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 mb-4 sm:mb-5 lg:mb-6">
+                            <div className="relative w-16 h-16 sm:w-18 sm:h-18 lg:w-20  lg:h-20 mb-4 sm:mb-5 lg:mb-6">
                                 <Image
                                     src={pop1}
                                     alt="Высококалифицированные специалисты"
                                     fill
-                                    className="object-contain"
+                                    className="object-contain "
                                 />
                             </div>
 

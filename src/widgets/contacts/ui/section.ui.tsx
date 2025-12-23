@@ -40,8 +40,8 @@ const ContactsSection = () => {
                     <div className="lg:col-span-2 relative overflow-hidden rounded-xl border border-gray-300">
                         <div className="relative w-full h-[300px] sm:h-[350px] md:h-[400px]">
                             <iframe
-                                src="https://yandex.ru/map-widget/v1/org/rzhd_meditsina_statsionar/113592397967/?from=mapframe&ll=44.404658%2C48.693522&z=16"
-                                max-width="100%"
+                                src="https://yandex.ru/map-widget/v1/org/rzhd_meditsina_statsionar/113592397967/?from=mapframe&ll=44.404658,48.693522&z=16&mode=whatshere"
+                                width="100%"
                                 height="100%"
                                 frameBorder="0"
                                 className="absolute inset-0 w-full h-full"
@@ -50,7 +50,7 @@ const ContactsSection = () => {
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
                                 style={{ border: 0 }}
-                            ></iframe>
+                            />
                         </div>
                     </div>
                 </div>

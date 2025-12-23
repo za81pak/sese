@@ -14,8 +14,8 @@ const HeroSection = () => {
     };
 
     return (
-        <section className="relative w-full  min-h-[500px] sm:min-h-[600px] md:min-h-[700px] overflow-hidden">
-            {/* Фоновое изображение с адаптивностью */}
+        <section className="relative w-full min-h-[500px] sm:min-h-[600px] md:min-h-[700px] overflow-hidden">
+            {/* Фоновое изображение - БЕЗ ОБРЕЗКИ */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src={hero}
@@ -24,19 +24,16 @@ const HeroSection = () => {
                     className="object-cover object-right md:object-center"
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
-                    style={{
-                        objectPosition: 'right center'
-                    }}
                 />
                 {/* Затемнение фона для лучшей читаемости текста */}
                 <div className="absolute inset-0 bg-black/40 md:bg-black/30"></div>
             </div>
 
             {/* Контент поверх изображения */}
-            <div className="relative left-1/13 z-10 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-12 md:py-16 lg:py-20">
-                <div className="max-w-2xl mx-auto md:mx-0">
+            <div className="relative z-10 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-8 md:py-16 lg:py-20">
+                <div className="max-w-2xl mx-auto">
                     {/* Заголовок с адаптивными размерами */}
-                    <div className="text-white font-bold tracking-tight leading-tight mb-8 md:mb-10">
+                    <div className="text-white xs:px-4 font-bold tracking-tight leading-tight mb-6 md:mb-10">
                         <div className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl mb-2 sm:mb-3">
                             Центр
                         </div>
@@ -53,7 +50,8 @@ const HeroSection = () => {
 
                     {/* Текст и кнопки */}
                     <div>
-                        <div className="mb-8 md:mb-10">
+                        {/* Текст с отступами по бокам */}
+                        <div className="mb-8 md:mb-10 px-4 md:px-0">
                             <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-4 md:mb-6">
                                 Ваше здоровье и комфорт — наша цель.
                             </h2>
@@ -67,8 +65,8 @@ const HeroSection = () => {
                             </div>
                         </div>
 
-                        {/* Кнопки с адаптивным расположением */}
-                        <div className="flex sm:flex-row gap-4 sm:gap-6">
+                        {/* Кнопки с адаптивным расположением и отступами */}
+                        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 px-25 md:px-0">
                             <button
                                 onClick={() => setIsModalOpen(true)}
                                 className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl active:scale-95"

@@ -108,6 +108,7 @@ const Header = () => {
 
                     {/* Десктопные контакты */}
                     <div className="hidden md:flex items-center space-x-4">
+
                         <a
                             href="tel:+78442202776"
                             className="flex items-center space-x-2 text-gray-600 hover:text-red-700 transition-colors"
@@ -177,7 +178,7 @@ const Header = () => {
                         {/* Навигация в меню */}
                         <nav className="flex flex-col space-y-4">
                             {navItems.map((item) => (
-                                <a key={item.label} href={item.href} onClick={(e) => scrollToSection(e, item.href)} className="py-4 px-4 bg-gray-50 rounded-lg text-gray-800 hover:text-white hover:bg-red-600 transition-colors text-lg font-medium">
+                                <a key={item.label} href={item.href} onClick={(e) => scrollToSection(e, item.href)} className="py-4 px-4 bg-gray-50 rounded-lg text-gray-800 hover:text-white hover:bg-red-600 transition-colors text-lg font-medium w-full">
                                     {item.label}
                                 </a>
                             ))}
@@ -187,15 +188,18 @@ const Header = () => {
             </header>
 
             {/* Десктопная навигация */}
-            <div className="hidden md:block w-full sticky top-16 lg:top-10 z-40 bg-white shadow-sm border-t border-gray-100">
-                <div className="w-full px-4 md:px-8 lg:px-12 xl:px-40 bg-white">
+            <div style={{
+                borderTop: 'none',
+                boxShadow: 'none',
+            }} className="hidden md:block w-full sticky top-16 lg:top-10 z-40 bg-white shadow-sm border-t border-gray-100">
+                <div className="w-full px-4 md:px-8 lg:px-12 xl:px-45 bg-white">
                     <nav className="flex items-center justify-center py-3 space-x-2 lg:space-x-4">
                         {navItems.map((item) => (
                             <a
                                 key={item.label}
                                 href={item.href}
                                 onClick={(e) => scrollToSection(e, item.href)}
-                                className="flex-1 max-w-[180px] text-center py-2 md:py-3 bg-white border border-gray-300 rounded-lg text-gray-800 hover:text-white hover:bg-red-600 transition-colors text-sm md:text-base font-medium"
+                                className="flex-1 text-center py-2 md:py-3 px-4 md:px-6 bg-white border border-gray-300 rounded-lg text-gray-800 hover:text-white hover:bg-red-600 transition-colors text-sm md:text-base font-medium w-full"
                             >
                                 {item.label}
                             </a>

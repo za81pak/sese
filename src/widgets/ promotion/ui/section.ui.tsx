@@ -14,12 +14,10 @@ const PromotionSection = () => {
                 <div className="w-full text-center mb-4 sm:mb-6 lg:mb-8">
                     <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4 sm:text-xl lg:text-3xl">АКЦИЯ</h2>
                 </div>
-                <div className="w-full relative">
+                <div className="w-full relative overflow-hidden"
+                     style={{ clipPath: 'inset(0 8.5% 0 8.5%)' }}>
                     {/* Картинка с котиком */}
-                    <Image src={cat} alt="котик" className="w-full h-auto"/>
-
-                    {/* Кнопка на фоне картинки, смещённая левее */}
-
+                    <Image src={cat} alt="котик" className="w-full h-auto" />
                 </div>
                 <div className="flex justify-center " >
                     <button onClick={() => setIsModalOpen(true)} className="cursor-pointer flex  bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition-colors shadow-lg hover:shadow-xl text-xs sm:py-2 sm:px-6 sm:text-sm md:py-3 md:px-8 md:text-base lg:py-4 lg:px-12 lg:text-lg">
