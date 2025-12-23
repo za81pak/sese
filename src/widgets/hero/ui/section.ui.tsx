@@ -14,26 +14,37 @@ const HeroSection = () => {
     };
 
     return (
-        <section className="relative w-full min-h-[500px] sm:min-h-[600px] md:min-h-[700px] overflow-hidden">
-            {/* Фоновое изображение - БЕЗ ОБРЕЗКИ */}
-            <div className="absolute inset-0 z-0">
-                <Image
-                    src={hero}
-                    alt="Центр бариатрической хирургии"
-                    fill
-                    className="object-cover object-right md:object-center"
-                    priority
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
-                />
-                {/* Затемнение фона для лучшей читаемости текста */}
-                <div className="absolute inset-0 bg-black/40 md:bg-black/30"></div>
+        <section className="relative w-full min-h-[400px] sm:min-h-[300px] md:min-h-[500px] overflow-hidden">
+            {/* Фоновое изображение с разным clipPath для мобильных и десктопа */}
+            <div className="absolute inset-0 z-0 overflow-hidden">
+                <div className="absolute inset-0 hidden md:block"
+                     style={{ clipPath: 'inset(0 12% 0 12%)' }}>
+                    <Image
+                        src={hero}
+                        alt="Центр бариатрической хирургии"
+                        fill
+                        className="object-cover object-right md:object-center"
+                        priority
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
+                    />
+                </div>
+                <div className="absolute inset-0 md:hidden">
+                    <Image
+                        src={hero}
+                        alt="Центр бариатрической хирургии"
+                        fill
+                        className="object-cover object-right md:object-center"
+                        priority
+                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 100vw"
+                    />
+                </div>
             </div>
 
             {/* Контент поверх изображения */}
             <div className="relative z-10 w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-8 md:py-16 lg:py-20">
                 <div className="max-w-2xl mx-auto">
                     {/* Заголовок с адаптивными размерами */}
-                    <div className="text-white xs:px-4 font-bold tracking-tight leading-tight mb-6 md:mb-10">
+                    <div className="text-white font-bold tracking-tight leading-tight mb-6 md:mb-10">
                         <div className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl mb-2 sm:mb-3">
                             Центр
                         </div>
@@ -66,7 +77,7 @@ const HeroSection = () => {
                         </div>
 
                         {/* Кнопки с адаптивным расположением и отступами */}
-                        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 px-25 md:px-0">
+                        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 px-22 md:px-0">
                             <button
                                 onClick={() => setIsModalOpen(true)}
                                 className="w-full sm:w-auto bg-red-600 hover:bg-red-700 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 shadow-lg hover:shadow-xl active:scale-95"
