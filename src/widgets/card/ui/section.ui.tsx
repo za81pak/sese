@@ -50,7 +50,7 @@ const CardSection = () => {
     return (
         <section id="indications" className="relative w-full py-16 bg-gradient-to-b from-gray-50 to-white">
             {/* Контейнер с ограничением по ширине */}
-            <div className="container mx-auto px-4 sm:px-6 lg:px-51">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-46">
                 {/* Заголовок секции */}
                 <div className="text-center mb-16">
                     <h1 className="text-2xl md:text-3xl font-bold text-red-600 mb-6">
