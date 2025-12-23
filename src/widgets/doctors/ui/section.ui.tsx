@@ -45,9 +45,9 @@ const DoctorsSection = () => {
 
                         {/* Отзывы - маленькая кнопка, центрированная */}
                         <div className="mt-auto pt-3 sm:pt-4 text-center">
-                            <div className="bg-gray-400 text-gray-700 py-2 px-4 sm:px-6 rounded-xl text-xs sm:text-sm hover:bg-gray-300 transition-colors duration-200 inline-block">
+                            <a href="https://prodoctorov.ru/volgograd/vrach/90917-tarasov/" className="bg-gray-400 text-gray-700 py-2 px-4 sm:px-6 rounded-xl text-xs sm:text-sm hover:bg-gray-300 transition-colors duration-200 inline-block">
                                 Отзывы
-                            </div>
+                            </a>
                         </div>
                     </div>
 
@@ -79,9 +79,9 @@ const DoctorsSection = () => {
 
                         {/* Отзывы - маленькая кнопка, центрированная */}
                         <div className="mt-auto pt-3 sm:pt-4 text-center">
-                            <div className="bg-gray-400 text-gray-700 py-2 px-4 sm:px-6 rounded-xl text-xs sm:text-sm hover:bg-gray-300 transition-colors duration-200 inline-block">
+                            <a href="https://prodoctorov.ru/volgograd/vrach/78052-shpirnyy/" className="bg-gray-400 text-gray-700 py-2 px-4 sm:px-6 rounded-xl text-xs sm:text-sm hover:bg-gray-300 transition-colors duration-200 inline-block">
                                 Отзывы
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>

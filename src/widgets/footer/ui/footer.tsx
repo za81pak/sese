@@ -24,13 +24,13 @@ const Footer = () => {
     return (
         <footer className="py-8 bg-white border-t border-gray-200">
             <div className="max-w-6xl mx-auto px-4">
-                <nav className="flex flex-wrap justify-center items-center space-x-6">
+                <nav className="flex w-full gap-28 justify-center items-center space-x-6">
                     {navItems.map((item) => (
                         <a
                             key={item.label}
                             href={item.href}
                             onClick={(e) => handleClick(e, item.href)}
-                            className="text-gray-700 hover:text-red-600 transition-colors text-sm font-medium"
+                            className="text-gray-700 hover:text-red-600 transition-colors text-xl font-medium"
                         >
                             {item.label}
                         </a>

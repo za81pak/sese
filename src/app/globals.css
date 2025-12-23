@@ -3,12 +3,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 
 @theme inline {
   --color-background: var(--background);
@@ -84,7 +81,6 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 }
-
 
 .dark {
   --background: oklch(0.145 0 0);
